@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <p>
+            Fun With Triangles
+        </p>
+        <ul class="links">
+            <li><a href="triangle-quiz.html">Triangle Quiz</a></li>
+            <li><a href="is-this-a-traingle.html">Is this a Triangle?</a></li>
+            <li><a href="area.html">Find Area</a></li>
+            <li><a href="hypoteneuse.html">Find Hypoteneuse</a></li>
+        </ul>
+    </nav>
+    
+    <main class="container">
+        <h1>Is this a Triangle?</h1>
+        <form class="angle-form">
+            <label for="first-angle">Enter first angle</label>
+            <input class="inputs" id="first-angle" type="number" placeholder="Enter angle"/>
+            <label for="second-angle">Enter second angle</label>
+            <input class="inputs" id="second-angle" type="number" placeholder="Enter angle"/>
+            <label for="third-angle">Enter third angle</label>
+            <input class="inputs" id="third-angle" type="number" placeholder="Enter angle"/>
+        </form>
+        <button id="check">Check</button>
+        <p id="result"></p>
+    </main>
+    <script src="is-triangle.js"></script>
+</body>
+</html>

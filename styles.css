@@ -1,0 +1,57 @@
+  body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darkcyan;
+    color: whitesmoke;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  nav, .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    list-style: none;
+    color: whitesmoke;
+  }
+  a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+    color: whitesmoke;
+  }
+  
+  button{
+    padding: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .questions{
+      width: 35em;
+      margin: 15px;
+  }
+  .angle-form, .input-form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .inputs{
+      width: 25em;
+      height: 2em;
+      margin: 10px;
+      border-radius: 5px;
+      border: none;
+      text-align: center;
+  }
+
+  p{
+      color: whitesmoke;
+  }
+
