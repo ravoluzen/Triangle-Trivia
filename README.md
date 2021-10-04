@@ -1,2 +1,2 @@
 # Triangle-Trivia
-#Mark-12 neoG camp
+# Mark 12, level zero, neoG camp
